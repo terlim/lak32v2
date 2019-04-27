@@ -1,0 +1,15 @@
+@import "icons";
+
+
+.icon__search{
+  @extend %icon-loupe;
+  font-size: 1.2rem;
+}
+.icon__email{
+  @extend %icon-email;
+  font-size: 1.3rem;
+}
+.icon__shopping-cart{
+  @extend %icon-shopping-cart;
+  font-size: 1.3rem;
+}

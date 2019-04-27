@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "myiconfont";
+    src: url("../fonts/icons/myiconfont.eot");
+    src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+.icon__email:before,
+.icon__search:before,
+.icon__shopping-cart:before {
+    font-family: "myiconfont";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.icon__email:before {
+    content: '\E001';
+}
+
+.icon__search:before {
+    content: '\E002';
+}
+
+.icon__shopping-cart:before {
+    content: '\E004';
+}
+
+.icon__search {
+    font-size: 1.2rem;
+}
+
+.icon__email {
+    font-size: 1.3rem;
+}
+
+.icon__shopping-cart {
+    font-size: 1.3rem;
+}
