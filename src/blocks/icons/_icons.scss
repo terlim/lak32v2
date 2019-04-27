@@ -7,10 +7,11 @@ $icon_font_name:"myiconfont";
 	url('../fonts/icons/myiconfont.ttf') format('truetype'),
 	url('../fonts/icons/myiconfont.svg#myiconfont') format('svg');
 }
+%icon-close,
 %icon-email,
-%icon-loupe,
-%icon-rub,
-%icon-shopping-cart,
+%icon-map-marker,
+%icon-menu,
+%icon-phone-receiver,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -52,15 +53,18 @@ $icon_font_name:"myiconfont";
 	}
 }
 
-%icon-email:before {
+%icon-close:before {
 	content:'\E001';
 }
-%icon-loupe:before {
+%icon-email:before {
 	content:'\E002';
 }
-%icon-rub:before {
+%icon-map-marker:before {
 	content:'\E003';
 }
-%icon-shopping-cart:before {
+%icon-menu:before {
 	content:'\E004';
-}
+}
+%icon-phone-receiver:before {
+	content:'\E005';
+}

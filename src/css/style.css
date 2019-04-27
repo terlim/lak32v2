@@ -1,10 +1,12 @@
 @import "../blocks/font-face/font-face.css";
 
 @import "../blocks/core/core.css";
-/*@import "../blocks/core/off-canvas/off-canvas.css";*/
-/*@import "../blocks/icons/tempalte-icons.css";*/
+@import "../blocks/sidebar-toggle/sidebar-toggle.css";
+@import "../blocks/icons/tempalte-icons.css";
+@import "../blocks/body/body.css";
+@import "../blocks/navbar/navbar.css";
+@import "../blocks/navbar-icons/navbar-icons.css";
 /*@import "../blocks/header/header.css";*/
-/*@import "../blocks/navbar/navbar.css";*/
 /*@import "../blocks/breadcrumbs/breadcrumbs.css";*/
 /*@import "../blocks/leftmenu/leftmenu.css";*/
 /*@import "../blocks/mainpage/mainpage.css";*/

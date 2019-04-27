@@ -1,0 +1,99 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+
+.sidebar {
+  width: 100%;
+}
+
+.sidebar-toggle,.sidebar-close {
+  display: none;
+}
+
+@media (max-width:992px) {
+  .sidebar-offcanvas {
+    position: fixed;
+    top: 0;
+    width: 320px;
+    height: 100%;
+    padding: 42px 24px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.15);
+    z-index: 9910;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sidebar-offcanvas.position-right {
+    right: -320px;
+    transition: right 0.4s cubic-bezier(0.785,0.135,0.15,0.86) 0.3s,box-shadow 0.3s 0.3s;
+  }
+
+  .sidebar-offcanvas.position-left {
+    left: -320px;
+    transition: left 0.4s cubic-bezier(0.785,0.135,0.15,0.86) 0.3s,box-shadow 0.3s 0.3s;
+  }
+
+  .sidebar-offcanvas.open {
+    box-shadow: 0 0 50px 3px rgba(0,0,0,0.15);
+  }
+
+  .sidebar-offcanvas.open.position-right {
+    right: 0;
+  }
+
+  .sidebar-offcanvas.open.position-left {
+    left: 0;
+  }
+
+  .sidebar-close {
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    color: #606060;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .sidebar-offcanvas::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sidebar-toggle {
+    display: block;
+    position: fixed;
+    top: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px;
+    background-color: #fff;
+    color: #606060;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.15);
+    cursor: pointer;
+    z-index: 990;
+  }
+
+  .sidebar-toggle.position-right {
+    right: 0;
+    transition: right .3s ease-in-out;
+  }
+
+  .sidebar-toggle.position-right.sidebar-open {
+    right: -48px;
+  }
+
+  .sidebar-toggle.position-left {
+    left: 0;
+    transition: left .3s ease-in-out;
+  }
+
+  .sidebar-toggle.position-left.sidebar-open {
+    left: -48px;
+  }
+}

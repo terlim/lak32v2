@@ -4,9 +4,11 @@
     src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
 }
 
+.icon__close:before,
 .icon__email:before,
-.icon__search:before,
-.icon__shopping-cart:before {
+.icon__mapmarker:before,
+.icon__sidebar-menu:before,
+.icon__phone:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -17,26 +19,42 @@
     text-transform: none;
 }
 
-.icon__email:before {
+.icon__close:before {
     content: '\E001';
 }
 
-.icon__search:before {
+.icon__email:before {
     content: '\E002';
 }
 
-.icon__shopping-cart:before {
+.icon__mapmarker:before {
+    content: '\E003';
+}
+
+.icon__sidebar-menu:before {
     content: '\E004';
 }
 
-.icon__search {
-    font-size: 1.2rem;
+.icon__phone:before {
+    content: '\E005';
+}
+
+.icon__sidebar-menu {
+    font-size: 1rem;
+}
+
+.icon__close {
+    font-size: 1rem;
 }
 
 .icon__email {
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
-.icon__shopping-cart {
-    font-size: 1.3rem;
+.icon__mapmarker {
+    font-size: 2rem;
+}
+
+.icon__phone {
+    font-size: 2rem;
 }
