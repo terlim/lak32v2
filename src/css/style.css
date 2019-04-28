@@ -6,9 +6,10 @@
 @import "../blocks/body/body.css";
 @import "../blocks/navbar/navbar.css";
 @import "../blocks/navbar-icons/navbar-icons.css";
-/*@import "../blocks/header/header.css";*/
-/*@import "../blocks/breadcrumbs/breadcrumbs.css";*/
-/*@import "../blocks/leftmenu/leftmenu.css";*/
+@import "../blocks/left-menu/left-menu.css";
+@import "../blocks/sayerlack/sayerlack.css";
+@import "../blocks/footer/footer.css";
+@import "../blocks/zakladka/zakladka.css";
 /*@import "../blocks/mainpage/mainpage.css";*/
 /*@import "../blocks/catalog_item/catalog_item.css";*/
 /*@import "../blocks/footer/footer.css";*/

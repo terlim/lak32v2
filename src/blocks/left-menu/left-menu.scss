@@ -1,0 +1,61 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.left-accordion{
+
+  .nav-item{
+    a {
+      color: #555;
+    }
+    &:hover{
+     // background-color: #f3ffb6;
+    }
+  }
+
+  .nav-link{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+
+  .level2{
+    padding-left: 5px;
+    border-left: 2px solid #000;
+  }
+  .level3{
+    padding-left: 5px;
+    border-left: 2px solid #ff8a00;
+  }
+
+  .active{
+    background-color: #e7e7e7;
+  }
+}
+
+
+
+.nav-link-collapse:after {
+  position: absolute;
+  right: 5px;
+  width: 12px;
+  height: 6px;
+  content: "";
+  cursor: pointer;
+  text-align: center;
+  opacity: .9;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEyIDYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlNoYXBlIDI8L3RpdGxlPjxwYXRoIGQ9Ik0uOCAwTDYgNC42IDExLjIgMGwuOC43TDYgNiAwIC43LjggMHoiIGZpbGw9IiMwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==");
+  transform: rotate(0deg);
+  transition-property: transform;
+  transition-duration: .5s;
+  align-self: center;
+
+
+}
+
+.nav-link-collapse.collapsed:after {
+  transform: rotate(90deg);
+  transition-property: transform;
+  transition-duration: .5s;
+
+}

@@ -12,6 +12,8 @@ $icon_font_name:"myiconfont";
 %icon-map-marker,
 %icon-menu,
 %icon-phone-receiver,
+%icon-search,
+%icon-tag-black-shape,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -67,4 +69,10 @@ $icon_font_name:"myiconfont";
 }
 %icon-phone-receiver:before {
 	content:'\E005';
+}
+%icon-search:before {
+	content:'\E006';
+}
+%icon-tag-black-shape:before {
+	content:'\E007';
 }

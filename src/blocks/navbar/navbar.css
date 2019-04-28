@@ -12,7 +12,7 @@
         margin-bottom: 0;
     }
 
-    .nav-item {
+    .navbar-theme .nav-item {
         background: #fbf9ef;
         -webkit-box-shadow: 0px -3px 10px -5px rgba(0, 0, 0, 0.64);
         box-shadow: 0px -3px 10px -5px rgba(0, 0, 0, 0.64);
@@ -37,15 +37,15 @@
         align-items: center;
     }
 
-    .nav-item:first-child {
+    .navbar-theme .nav-item:first-child {
         margin-left: 0;
     }
 
-    .nav-item:last-child {
+    .navbar-theme .nav-item:last-child {
         margin-right: 0;
     }
 
-    .nav-item.active {
+    .navbar-theme .nav-item.active {
         -webkit-box-shadow: 0px -11px 10px -5px rgba(0, 0, 0, 0.64);
         box-shadow: 0px -11px 10px -5px rgba(0, 0, 0, 0.64);
         z-index: 999;

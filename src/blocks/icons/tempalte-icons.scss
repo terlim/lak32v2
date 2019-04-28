@@ -21,3 +21,11 @@
   @extend %icon-phone-receiver;
   font-size: 2rem;
 }
+.icon__search{
+  @extend %icon-search;
+  font-size: 1rem;
+}
+.icon-badge-sayer{
+  @extend %icon-tag-black-shape;
+  font-size: .9rem;
+}

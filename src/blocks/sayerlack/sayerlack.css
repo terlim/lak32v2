@@ -1,0 +1,44 @@
+.content-logo {
+    float: right;
+}
+
+.content-brand {
+    float: left;
+}
+
+.h1__bottom-bar {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-bottom: 2px solid;
+    display: block;
+    width: 100%;
+}
+
+.sayer-item {
+    margin-top: 2rem;
+}
+
+.sayer-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sayer-item a:hover {
+    color: #989292;
+    text-decoration: none;
+}
+
+.badge-sayer {
+    padding: .3rem .6rem;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    -webkit-border-radius: .25rem;
+    border-radius: .25rem;
+    background-color: #ff8a00;
+}

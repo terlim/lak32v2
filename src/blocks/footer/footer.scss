@@ -1,0 +1,21 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+footer{
+  margin-top: 3rem;
+
+  ul{
+    list-style: none;
+    font-size: .9rem;
+  }
+
+  a{
+    color: #333;
+    text-decoration: none;
+    &:hover{
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}

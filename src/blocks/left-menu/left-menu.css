@@ -1,0 +1,62 @@
+.left-accordion .nav-item a {
+    color: #555;
+}
+
+.left-accordion .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.left-accordion .level2 {
+    padding-left: 5px;
+    border-left: 2px solid #000;
+}
+
+.left-accordion .level3 {
+    padding-left: 5px;
+    border-left: 2px solid #ff8a00;
+}
+
+.left-accordion .active {
+    background-color: #e7e7e7;
+}
+
+.nav-link-collapse:after {
+    position: absolute;
+    right: 5px;
+    width: 12px;
+    height: 6px;
+    content: "";
+    cursor: pointer;
+    text-align: center;
+    opacity: .9;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEyIDYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlNoYXBlIDI8L3RpdGxlPjxwYXRoIGQ9Ik0uOCAwTDYgNC42IDExLjIgMGwuOC43TDYgNiAwIC43LjggMHoiIGZpbGw9IiMwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==");
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.nav-link-collapse.collapsed:after {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+}

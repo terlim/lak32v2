@@ -1,0 +1,50 @@
+
+.zakladka{
+  padding-top: 40px;
+  padding-left: 0;
+  margin-left: -20px;
+
+  li {
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 30px;
+    transition: all .3s;
+    box-shadow: 6px 5px 4px rgba(0,0,0,.19);
+    &:hover{
+      box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.19);
+      transition: all .3s;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 0%;
+      width: 0px;
+      height: 0px;
+      border-bottom: 20px solid #000;
+      border-left: 20px solid transparent;
+
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+      &:hover {
+        font-size: 18px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+    }
+  }
+
+}
+
+.search-btn{
+
+}

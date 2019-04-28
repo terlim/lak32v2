@@ -8,7 +8,9 @@
 .icon__email:before,
 .icon__mapmarker:before,
 .icon__sidebar-menu:before,
-.icon__phone:before {
+.icon__phone:before,
+.icon__search:before,
+.icon-badge-sayer:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -39,6 +41,14 @@
     content: '\E005';
 }
 
+.icon__search:before {
+    content: '\E006';
+}
+
+.icon-badge-sayer:before {
+    content: '\E007';
+}
+
 .icon__sidebar-menu {
     font-size: 1rem;
 }
@@ -57,4 +67,12 @@
 
 .icon__phone {
     font-size: 2rem;
+}
+
+.icon__search {
+    font-size: 1rem;
+}
+
+.icon-badge-sayer {
+    font-size: .9rem;
 }
