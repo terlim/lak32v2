@@ -5689,6 +5689,7 @@ input[type="button"].btn-block {
     margin-bottom: 1rem;
     list-style: none;
     background-color: #e9ecef;
+    font-size: .8rem;
     -webkit-border-radius: 0;
     border-radius: 0;
 }

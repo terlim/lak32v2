@@ -13,30 +13,6 @@
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 10px 10px 10px 30px;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    -webkit-box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.19);
-    box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.19);
-}
-
-.zakladka li:hover {
-    -webkit-box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.19);
-    box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.19);
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
-.zakladka li:before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: 0%;
-    width: 0px;
-    height: 0px;
-    border-bottom: 20px solid #000;
-    border-left: 20px solid transparent;
 }
 
 .zakladka li a {
@@ -48,4 +24,58 @@
     font-size: 18px;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .zakladka {
+        padding-top: 40px;
+        padding-left: 0;
+        margin-left: -20px;
+    }
+
+    .zakladka li {
+        position: relative;
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 10px 10px 10px 30px;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        -webkit-box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.19);
+        box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.19);
+    }
+
+    .zakladka li:hover {
+        -webkit-box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.19);
+        box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.19);
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .zakladka li:before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 0%;
+        width: 0px;
+        height: 0px;
+        border-bottom: 20px solid #000;
+        border-left: 20px solid transparent;
+    }
+
+    .zakladka li a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .zakladka li a:hover {
+        font-size: 18px;
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
