@@ -29,7 +29,9 @@
   }
 
 }
-
+.search-btn{
+  padding: 0 .75rem;
+}
   @include media-breakpoint-up(md){
   .zakladka{
     padding-top: 40px;
@@ -77,7 +79,15 @@
 
   }
 
-  .search-btn{
 
+}
+.btn-outline-secondary {
+  border-left: 0px;
+  border-left-color: white;
+  border-color: #dddfe1;
+}
+.msearch2 {
+  input{
+    border-right: 0px white;
   }
 }

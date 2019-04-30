@@ -30,13 +30,18 @@
     text-decoration: none;
 }
 
+.sayer-item p {
+    margin-bottom: .3rem;
+}
+
 .badge-sayer {
     padding: .3rem .6rem;
+    margin: .3rem 0;
     font-size: .9rem;
     font-weight: 300;
     color: #fff;
     text-align: center;
-    white-space: nowrap;
+    white-space: pre-wrap;
     vertical-align: baseline;
     -webkit-border-radius: .25rem;
     border-radius: .25rem;

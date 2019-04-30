@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+.search-btn {
+    padding: 0 .75rem;
+}
+
 @media (min-width: 768px) {
     .zakladka {
         padding-top: 40px;
@@ -78,4 +82,14 @@
         text-decoration: none;
         cursor: pointer;
     }
+}
+
+.btn-outline-secondary {
+    border-left: 0px;
+    border-left-color: white;
+    border-color: #dddfe1;
+}
+
+.msearch2 input {
+    border-right: 0px white;
 }
