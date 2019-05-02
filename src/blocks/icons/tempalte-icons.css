@@ -6,6 +6,8 @@
 
 .icon__close:before,
 .icon__email:before,
+.icon__file-download:before,
+.icon__file-view:before,
 .icon__mapmarker:before,
 .icon__sidebar-menu:before,
 .icon__phone:before,
@@ -29,24 +31,41 @@
     content: '\E002';
 }
 
-.icon__mapmarker:before {
+.icon__file-download:before {
     content: '\E003';
 }
 
-.icon__sidebar-menu:before {
+.icon__file-view:before {
     content: '\E004';
 }
 
-.icon__phone:before {
+.icon__mapmarker:before {
     content: '\E005';
 }
 
-.icon__search:before {
+.icon__sidebar-menu:before {
     content: '\E006';
 }
 
-.icon-badge-sayer:before {
+.icon__phone:before {
     content: '\E007';
+}
+
+.icon__search:before {
+    content: '\E008';
+}
+
+.icon-badge-sayer:before {
+    content: '\E009';
+}
+
+.icon {
+    text-decoration: none;
+    padding-left: .5rem;
+}
+
+.icon:hover {
+    text-decoration: none;
 }
 
 .icon__sidebar-menu {
@@ -75,4 +94,12 @@
 
 .icon-badge-sayer {
     font-size: .9rem;
+}
+
+.icon__file-view {
+    font-size: 1.5rem;
+}
+
+.icon__file-download {
+    font-size: 1.5rem;
 }

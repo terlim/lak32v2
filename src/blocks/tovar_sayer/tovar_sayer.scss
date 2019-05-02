@@ -1,0 +1,23 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.tovar-content-wrapper{
+  margin-top: 2rem;
+}
+.specific__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.specific-file{
+  margin-top: 2rem;
+}
+.seyerlac_table{
+  font-size: .8rem;
+}
+@include media-breakpoint-up(sm){
+  .specific-file{
+    margin-top: 0;
+  }
+}

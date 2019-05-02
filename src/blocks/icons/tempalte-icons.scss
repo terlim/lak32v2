@@ -1,6 +1,12 @@
 @import "icons";
 
-
+.icon {
+  text-decoration: none;
+  padding-left: .5rem;
+  &:hover{
+    text-decoration: none;
+  }
+}
 .icon__sidebar-menu{
   @extend %icon-menu;
   font-size: 1rem;
@@ -28,4 +34,12 @@
 .icon-badge-sayer{
   @extend %icon-tag-black-shape;
   font-size: .9rem;
+}
+.icon__file-view{
+  @extend %icon-file_view;
+  font-size: 1.5rem;
+}
+.icon__file-download{
+  @extend %icon-file_download;
+  font-size: 1.5rem;
 }

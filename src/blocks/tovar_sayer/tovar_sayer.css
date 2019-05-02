@@ -1,0 +1,31 @@
+.tovar-content-wrapper {
+    margin-top: 2rem;
+}
+
+.specific__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.specific-file {
+    margin-top: 2rem;
+}
+
+.seyerlac_table {
+    font-size: .8rem;
+}
+
+@media (min-width: 576px) {
+    .specific-file {
+        margin-top: 0;
+    }
+}

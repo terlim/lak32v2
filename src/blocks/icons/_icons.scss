@@ -9,6 +9,8 @@ $icon_font_name:"myiconfont";
 }
 %icon-close,
 %icon-email,
+%icon-file_download,
+%icon-file_view,
 %icon-map-marker,
 %icon-menu,
 %icon-phone-receiver,
@@ -61,18 +63,24 @@ $icon_font_name:"myiconfont";
 %icon-email:before {
 	content:'\E002';
 }
-%icon-map-marker:before {
+%icon-file_download:before {
 	content:'\E003';
 }
-%icon-menu:before {
+%icon-file_view:before {
 	content:'\E004';
 }
-%icon-phone-receiver:before {
+%icon-map-marker:before {
 	content:'\E005';
 }
-%icon-search:before {
+%icon-menu:before {
 	content:'\E006';
 }
-%icon-tag-black-shape:before {
+%icon-phone-receiver:before {
 	content:'\E007';
 }
+%icon-search:before {
+	content:'\E008';
+}
+%icon-tag-black-shape:before {
+	content:'\E009';
+}

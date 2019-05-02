@@ -1,0 +1,23 @@
+.borma-item {
+    margin-bottom: 2rem;
+}
+
+.borma-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.borma-item a:hover {
+    color: #989292;
+    text-decoration: none;
+}
+
+.borma-item p {
+    margin-bottom: .3rem;
+}
+
+.borma-item__name {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #af4746;
+}

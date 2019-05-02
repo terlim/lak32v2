@@ -1,0 +1,25 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.borma-item{
+  margin-bottom: 2rem;
+
+  a{
+    color:#333;
+    text-decoration: none;
+    &:hover{
+      color:#989292;
+      text-decoration: none;
+    }
+  }
+  p{
+    margin-bottom: .3rem;
+  }
+  &__name{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #af4746;
+  }
+
+}
