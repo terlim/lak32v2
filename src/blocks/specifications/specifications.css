@@ -1,0 +1,9 @@
+.spec-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.spec-item a:hover {
+    color: #333;
+    text-decoration: underline;
+}
