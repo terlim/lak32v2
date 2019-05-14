@@ -34,6 +34,8 @@
       text-align: center;
       display: flex;
       align-items: center;
+      flex: 1;
+      justify-content: center;
     }
     .nav-item:first-child {
       margin-left: 0;
