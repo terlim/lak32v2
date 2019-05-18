@@ -1,0 +1,82 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.sirca-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 0 1rem 0;
+  align-items: stretch;
+
+  .sirca-item__title{
+    padding: 1rem;
+    background-color: #d22229;
+    color: white;
+    text-align: center;
+  }
+  .sirca-item__description{
+    margin-top: 1rem;
+  }
+
+}
+.sirca-item__link{
+  text-decoration: none;
+  color: #333;
+  &:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #989292;;
+  }
+}
+
+.sirca-tovar{
+  display: flex;
+  flex-direction: column;
+
+  .sirca-tovar__item-title{
+    color: #d22229;
+    border-bottom: 1px solid #d22229;
+    font-weight: 600;
+  }
+  .sirca-tovar__item-description{
+    padding: .5rem 0 0.5rem 0;
+  }
+
+}
+
+
+@include media-breakpoint-up(md){
+  .sirca-item{
+
+    flex-direction: row;
+    align-items: start;
+     .sirca-item__description{
+      margin: 0 0 0 1rem;
+
+     }
+
+  }
+
+  .sirca-tovar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .sirca-tovar__item{
+      flex-basis: 50%;
+      flex-grow: 1;
+      &:nth-child(odd){
+        padding: .5rem .5rem .5rem 0;
+      }
+      &:nth-child(even){
+        padding: .5rem 0 .5rem .5rem;
+      }
+      &:nth-child(odd):last-child{
+        padding: 0;
+      }
+    }
+
+
+  }
+}
