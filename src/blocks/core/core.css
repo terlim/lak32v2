@@ -11902,3 +11902,7 @@ a.text-dark:hover, a.text-dark:focus {
 p {
     text-align: justify;
 }
+
+.table tr:first-child td, .table tr:first-child th {
+    border-top: none;
+}

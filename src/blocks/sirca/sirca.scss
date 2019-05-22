@@ -2,27 +2,28 @@
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 
-.sirca-item{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin: 1rem 0 1rem 0;
-  align-items: stretch;
-
-  .sirca-item__title{
+  .sirca-item__title-{
     padding: 1rem;
     background-color: #d22229;
     color: white;
     text-align: center;
+    &orange{
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      background-color: #faa619;
+    }
   }
   .sirca-item__description{
     margin-top: 1rem;
   }
 
-}
+
 .sirca-item__link{
   text-decoration: none;
   color: #333;
+  margin-bottom: 1.5rem;
+  display: block;
   &:hover{
     text-decoration: none;
     cursor: pointer;
@@ -44,27 +45,29 @@
   display: flex;
   flex-direction: column;
 
-  .sirca-tovar__item-title{
+  .sirca-tovar__item-title-{
     color: #d22229;
     border-bottom: 1px solid #d22229;
     font-weight: 600;
+    &orange{
+      color: #faa619;
+      border-bottom: 1px solid #faa619;
+      font-weight: 600;
+
+    }
   }
   .sirca-tovar__item-description{
     padding: .5rem 0 0.5rem 0;
+    font-size: .8rem;
   }
 
 }
 
 
 @include media-breakpoint-up(md){
-  .sirca-item{
+  .sirca-item__description{
+      margin: 0;
 
-    flex-direction: row;
-    align-items: start;
-     .sirca-item__description{
-      margin: 0 0 0 1rem;
-
-     }
 
   }
 
