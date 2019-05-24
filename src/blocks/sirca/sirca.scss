@@ -13,6 +13,30 @@
       text-align: center;
       background-color: #faa619;
     }
+    &purpure{
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      background-color: #8d63aa;
+    }
+    &brown{
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      background-color: #97774f;
+    }
+    &gray{
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      background-color: #ba9b83;
+    }
+    &lightgray{
+      padding: 1rem;
+      color: white;
+      text-align: center;
+      background-color: #89a2b9;
+    }
   }
   .sirca-item__description{
     margin-top: 1rem;
@@ -39,7 +63,7 @@
   font-style: italic;
   font-size: .75rem;
   line-height: 1.3;
-  padding: .4rem 0 1rem;
+  padding: .4rem 1rem 1rem;
 }
 .sirca-tovar{
   display: flex;
@@ -52,6 +76,30 @@
     &orange{
       color: #faa619;
       border-bottom: 1px solid #faa619;
+      font-weight: 600;
+
+    }
+    &purpure{
+      color: #8d63aa;
+      border-bottom: 1px solid #8d63aa;
+      font-weight: 600;
+
+    }
+    &brown{
+      color: #97774f;
+      border-bottom: 1px solid #97774f;
+      font-weight: 600;
+
+    }
+    &gray{
+      color: #ba9b83;
+      border-bottom: 1px solid #ba9b83;
+      font-weight: 600;
+
+    }
+    &lightgray{
+      color: #89a2b9;
+      border-bottom: 1px solid #89a2b9;
       font-weight: 600;
 
     }
