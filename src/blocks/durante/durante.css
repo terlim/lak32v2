@@ -1,0 +1,65 @@
+.durante__item {
+    margin: 0 0 1rem 0;
+}
+
+.durante__title {
+    color: #e51a23;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.durante-tovar .durante-tovar__item-title- {
+    color: #d22229;
+    border-bottom: 1px solid #d22229;
+    font-weight: 600;
+}
+
+.durante-tovar .durante-tovar__item-title-orange {
+    color: #faa619;
+    border-bottom: 1px solid #faa619;
+    font-weight: 600;
+}
+
+.durante-tovar .durante-tovar__item-title-purpure {
+    color: #8d63aa;
+    border-bottom: 1px solid #8d63aa;
+    font-weight: 600;
+}
+
+.durante-tovar .durante-tovar__item-title-brown {
+    color: #97774f;
+    border-bottom: 1px solid #97774f;
+    font-weight: 600;
+}
+
+.durante-tovar .durante-tovar__item-title-gray {
+    color: #ba9b83;
+    border-bottom: 1px solid #ba9b83;
+    font-weight: 600;
+}
+
+.durante-tovar .durante-tovar__item-title-lightgray {
+    color: #89a2b9;
+    border-bottom: 1px solid #89a2b9;
+    font-weight: 600;
+}
+
+.durante-tovar .durante-tovar__item-description {
+    padding: .5rem 0 0.5rem 0;
+    font-size: .8rem;
+}
+
+.durante-tovar .durante-tovar__item-description p {
+    margin-top: 0;
+    margin-bottom: .1rem;
+    text-align: left;
+}
+
+.table thead th {
+    vertical-align: top;
+    border-bottom: 0px;
+}
+
+.table thead {
+    border-bottom: 2px solid #dee2e6;
+}
